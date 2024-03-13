@@ -1,0 +1,64 @@
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+project.xcworkspace/
+*.xcworkspacedata
+!default.xcworkspacedata
+*.swp
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# VisionOS specifics
+# Depending on your VisionOS project setup, you might need to exclude environment-specific files,
+# generated code, or local configuration files that are specific to VisionOS.
+
+# Add here any VisionOS-specific files/folders that should not be tracked by Git.
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
