@@ -32,7 +32,7 @@ struct WpSidebar: View {
                 }
             } label: {
                 Label {
-                    Text(   "Dashboard" )
+                    Text("Dashboard")
                 } icon: {
                     Image("dashboard")
                         .resizable()
@@ -41,7 +41,7 @@ struct WpSidebar: View {
                 }
             }
             
-            NavigationLink(destination: DetailView(text: "Posts")) {
+            NavigationLink(destination: PostsTableView()) {
                 Label {
                     Text("Posts")
                 } icon: {
@@ -155,7 +155,40 @@ struct DetailView: View {
     }
 }
 
+struct PostsTableView: View {
+    // Sample data for posts
+    let posts = [
+        Post(title: "First Post", author: "Author A", categories: "Category 1", date: "2024-12-28"),
+        Post(title: "Second Post", author: "Author B", categories: "Category 2", date: "2024-12-29"),
+        Post(title: "Third Post", author: "Author C", categories: "Category 3", date: "2024-12-30"),
+    ]
+    
+    var body: some View {
+        VStack {
+            Text("Posts")
+                .font(.largeTitle)
+                .padding()
+            
+            Table(posts) {
+                TableColumn("Title", value: \.title)
+                TableColumn("Author", value: \.author)
+                TableColumn("Categories", value: \.categories)
+                TableColumn("Date", value: \.date)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .padding()
+    }
+}
+
+struct Post: Identifiable {
+    let id = UUID()
+    let title: String
+    let author: String
+    let categories: String
+    let date: String
+}
+
 #Preview(windowStyle: .automatic) {
     ContentView()
 }
-
