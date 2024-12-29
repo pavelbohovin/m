@@ -15,6 +15,7 @@
 		5ADA5F442BA116D5004721C3 /* swift_wp_adminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA5F432BA116D5004721C3 /* swift_wp_adminTests.swift */; };
 		5ADA5F4E2BA11991004721C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA5F4D2BA11991004721C3 /* README.md */; };
 		5ADA5F502BA11999004721C3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA5F4F2BA11999004721C3 /* LICENSE */; };
+		5ADA5F522BA12C7D004721C3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA5F512BA12C7D004721C3 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		5ADA5F432BA116D5004721C3 /* swift_wp_adminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_wp_adminTests.swift; sourceTree = "<group>"; };
 		5ADA5F4D2BA11991004721C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5ADA5F4F2BA11999004721C3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5ADA5F512BA12C7D004721C3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		5ADA5F212BA116D2004721C3 = {
 			isa = PBXGroup;
 			children = (
+				5ADA5F512BA12C7D004721C3 /* .gitignore */,
 				5ADA5F4F2BA11999004721C3 /* LICENSE */,
 				5ADA5F4D2BA11991004721C3 /* README.md */,
 				5ADA5F2C2BA116D2004721C3 /* swift-wp-admin */,
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADA5F522BA12C7D004721C3 /* .gitignore in Resources */,
 				5ADA5F4E2BA11991004721C3 /* README.md in Resources */,
 				5ADA5F392BA116D4004721C3 /* Preview Assets.xcassets in Resources */,
 				5ADA5F502BA11999004721C3 /* LICENSE in Resources */,
